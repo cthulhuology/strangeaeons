@@ -1,24 +1,22 @@
-opifex
-======
+strange aeons
+=============
 
-Opifex is a coffeescript module for doing useful work.
+And with strange aeons even death might die...
+
+strange aeons is still yet another watchdog daemon for nodejs.
+
+It tracks uptime and logs to syslog each child process restart.
+
+It is intended to keep an app up and running, resurrecting like superviser but geared towards logging.
+
+Eventually it will be management bus aware, logging all relevant events to an AMQP message stream.
+
 
 Usage
 -----
 
-First write a script like:
-
-	Opifex = require 'Opifex'
-	Opifex('amqp://user:password@host:port/domain/exchange/key/[queue/[exchange/key]]')
-		.facit = (command) ->
-			console.log "Got command #{command}"
-
-And then on the given host send to the appropriate vhost on the given exchange a message:
-
-	[ "facit", "some command" ]
-
-And it will log "Got command some command" to the console!
+	aeons ./my/coffeescript/app some-args...
 
 
-
+Kill aeons to end the child process...
 
