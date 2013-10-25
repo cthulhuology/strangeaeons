@@ -1,7 +1,7 @@
 strange aeons
 =============
 
-And with strange aeons even death might die...
+And with strange aeons even death may die...
 
 strange aeons is still yet another watchdog daemon for nodejs.
 
