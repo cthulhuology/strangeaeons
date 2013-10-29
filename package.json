@@ -3,7 +3,7 @@
 	"name": "strangeaeons",
 	"license" : "MIT",
 	"description": "And with strange aeons even death may die...",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"url": "http://github.com/cthulhuology/strangeaeons"
 	},
@@ -17,7 +17,7 @@
 	"devDependencies": {},
 	"optionalDependencies": {},
 	"engines": {
-		"node": "*"
+		"node": ">=0.6.19"
 	}
 }
 
